@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	
+}
+body{
+	font: 15px/1.5 Arial , Helvetica, sans-serif;
+	background-color: #d9d9d9;
+	
+}
+.container {
+	margin: auto;
+}
+.header {
+	width: 80vw;
+	justify-content: center;
+	border: 5px solid blue;
+	background: #f19f4d;
+	text-align: center;
+	padding: 0 20px 0 20px:
+	display: grid;
+	grid-template-columns: 25%  2fr 1fr;
+	grid-template-rows: 100px 25px;
+	
+}
+
+#banner {
+	
+	font-family: 'Ruslan Display', cursive;
+	font-size: 40px;
+	/*border: 5px solid red;*/
+	grid-column-start: 2;
+	/* grid-column-end: span 3;*/
+	grid-row-start: 1;
+	grid-row-end: 3;
+}
+/* Global */
+.container {
+	margin: auto;
+	width: 80%;
+	overflow: hidden;
+	
+}
+footer{
+	background-color: #f9cf00;
+}
